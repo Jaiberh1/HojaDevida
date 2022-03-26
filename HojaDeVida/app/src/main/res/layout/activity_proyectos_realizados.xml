@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProyectosRealizados">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:rowCount="9"
+        android:columnCount="2">
+
+        <TextView
+            android:id="@+id/prueba01"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#758FCE"
+            android:textSize="15sp"
+            android:layout_margin="5sp"
+            android:text="Ciclista profesional"/>
+
+        <CheckBox
+            android:layout_gravity="fill"
+            android:id="@+id/chBox1"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:checked="true"
+            android:text="REALIZADO"/>
+
+        <TextView
+            android:id="@+id/prueba02"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#758FCE"
+            android:textSize="15sp"
+            android:layout_margin="5sp"
+            android:text="Practicante de motocross"/>
+
+        <CheckBox
+            android:layout_gravity="fill"
+            android:id="@+id/chBox2"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:checked="true"
+            android:text="REALIZADO"/>
+
+        <TextView
+            android:id="@+id/prueba03"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#758FCE"
+            android:textSize="15sp"
+            android:layout_margin="5sp"
+            android:text="Técnico en sistemas"/>
+
+        <CheckBox
+            android:layout_gravity="fill"
+            android:id="@+id/chBox3"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:checked="true"
+            android:text="REALIZADO"/>
+
+        <TextView
+            android:id="@+id/prueba04"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#758FCE"
+            android:textSize="15sp"
+            android:layout_margin="5sp"
+            android:text="Viajes"/>
+
+        <CheckBox
+            android:layout_gravity="fill"
+            android:id="@+id/chBox4"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:checked="true"
+            android:text="REALIZADO"/>
+
+        <TextView
+            android:id="@+id/prueba05"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#758FCE"
+            android:textSize="15sp"
+            android:layout_margin="5sp"
+            android:text="Compra de moto"/>
+
+        <CheckBox
+            android:layout_gravity="fill"
+            android:id="@+id/chBox5"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:checked="true"
+            android:text="REALIZADO"/>
+
+        <TextView
+            android:id="@+id/prueba06"
+            android:layout_gravity="fill"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#758FCE"
+            android:textSize="15sp"
+            android:layout_margin="5sp"
+            android:text="Trabajo en técnico y soporte"/>
+
+        <CheckBox
+            android:layout_gravity="fill"
+            android:id="@+id/chBox6"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:checked="true"
+            android:text="REALIZADO"/>
+
+        <Button
+            android:layout_gravity="fill"
+            android:id="@+id/btnPrevious"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="20sp"
+            android:layout_margin="5sp"
+            android:text="PREVIOUS"/>
+        <Button
+            android:layout_gravity="fill"
+            android:id="@+id/btnNext"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="20sp"
+            android:layout_margin="5sp"
+            android:text="NEXT"/>
+        <!--
+        <Button
+            android:layout_gravity="fill"
+            android:id="@+id/btnCambiarUbicacion"
+            android:gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="20sp"
+            android:layout_margin="5sp"
+            android:text="CAMBIAR UBICACION"/>-->
+
+    </GridLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
